@@ -57,10 +57,10 @@ const CreateTicket = () => {
   }
 
   return (
-    <div className='bg-zinc-800 p-10 h-[92vh]'>
+    <div className='bg-zinc-800 sm:p-10 p-2 mt-10 h-[92vh]'>
        <div className="card w-full shadow-xl bg-base-100">
         <form onSubmit={handleCreateTicket} className="card-body">
-          <h2 className="card-title justify-center">Create Ticket</h2>
+          <h2 className="card-title justify-center">Ask Doubt</h2>
 
           <input
             type="input"
